@@ -26,6 +26,7 @@ serviceAccount:
 # db setting
 databaseUrl: postgresql://umami:umami@db:5432/umami
 databaseType: postgresql
+saltHash: salt hash goes here
 
 podAnnotations: {}
 

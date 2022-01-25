@@ -52,6 +52,8 @@ spec:
             value: {{ .Values.databaseUrl }}
           - name: DATABASE_TYPE
             value: {{ .Values.databaseType }}
+          - name: SALT_HASH
+            value: {{ .Values.saltHash }}
       {{- with .Values.nodeSelector }}
       nodeSelector:
         {{- toYaml . | nindent 8 }}
