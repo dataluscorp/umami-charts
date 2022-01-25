@@ -52,7 +52,7 @@ spec:
             value: {{ .Values.databaseUrl }}
           - name: DATABASE_TYPE
             value: {{ .Values.databaseType }}
-          - name: SALT_HASH
+          - name: HASH_SALT
             value: {{ .Values.saltHash }}
       {{- with .Values.nodeSelector }}
       nodeSelector:
