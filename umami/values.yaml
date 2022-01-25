@@ -46,7 +46,7 @@ service:
 
 ingress:
   enabled: true
-  annotations: {}
+  annotations:
     cert-manager.io/issuer: website
     cert-manager.io/issuer-kind: ClusterIssuer
   hosts:
