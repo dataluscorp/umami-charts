@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  umami:
+  - apiVersion: v2
+    appVersion: 0.0.1
+    created: "2022-01-24T20:49:33.662924063-06:00"
+    description: A Helm chart for Kubernetes
+    digest: b452ff2ac4f0b4adf82e1d92b07fdc129d4a081a0c77c585037a5f44c9f593cb
+    name: umami
+    type: application
+    urls:
+    - umami-0.0.1.tgz
+    version: 0.0.1
+generated: "2022-01-24T20:49:33.662397468-06:00"
